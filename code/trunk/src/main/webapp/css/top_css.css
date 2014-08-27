@@ -1,0 +1,83 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 12px;
+}
+form{
+	margin: 0px;
+}
+.redColor{
+	color: red;
+	font-size: 10px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
+	color: #014AA3;
+}
+.main {
+	width: 978px;
+	margin: 0 auto;
+}
+
+/*头部样式*/
+.dh_ {
+	/*background: url('../images/index_dhback.gif');5C88C5  #111D59*/
+	background-color:#014EAF;;
+	color: #ffffff;
+	height: 46px;
+	line-height: 46px;
+	width: 978px;
+	margin: 3px auto;
+}
+.dh_ a{
+	padding:0px 6.5px !importent;
+}
+.dh_ a {
+	color: white;
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+}
+.dh_ a:hover{
+	color:white;
+}
+/*解决当前位置在ie下的错乱*/
+.content_body_title{
+	padding-top: 7px !importent;
+}
+.content_detail_title{
+	padding-top: 4px !importent;
+}
+/*版权*/
+.b_q {
+	width: 100%;
+	float:left;
+	line-height: 20px;
+	margin-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+/*分页*/
+.pager_right {
+	float: right;
+	padding-right: 10px;
+	padding-top: 6px;
+	height: 33px;
+}
+
+.pager_center {
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 33px;
+	float: left;
+}
+.content_{
+text-align: left;
+padding: 0 20px;
+}

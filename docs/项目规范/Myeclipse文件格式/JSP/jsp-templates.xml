@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="jsp_tag" deleted="false" description="JSP declaration(s) &lt;%!..%&gt;" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jspdeclaration" name="JSP declaration(s)">&lt;%! ${cursor} %&gt;</template><template autoinsert="true" context="jsp_all" deleted="false" description="JSP expression &lt;%=..%&gt;" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jspexpression" name="JSP expression">&lt;%= ${cursor} %&gt;</template><template autoinsert="true" context="jsp_tag" deleted="false" description="JSP hidden comment &lt;%-- --%&gt;" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jsphiddencomment" name="JSP hidden comment">&lt;%-- ${cursor} --%&gt;</template><template autoinsert="true" context="jsp_tag" deleted="false" description="JSP include directive" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jspincludedirective" name="JSP include directive">&lt;%@ include file="${cursor}" %&gt;</template><template autoinsert="true" context="jsp_tag" deleted="false" description="JSP page directive" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jsppagedirective" name="JSP page directive">&lt;%@ page contentType="text/html; charset=${encoding}" %&gt;</template><template autoinsert="true" context="jsp_tag" deleted="false" description="JSP scriptlet &lt;%..%&gt;" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jspscriptlet" name="JSP scriptlet">&lt;% ${cursor} %&gt;</template><template autoinsert="true" context="jsp_tag" deleted="false" description="JSP taglib directive" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jsptaglibdirective" name="JSP taglib directive">&lt;%@ taglib uri="" prefix="${cursor}" %&gt;</template><template autoinsert="true" context="jsp_new" deleted="false" description="JSP with html markup" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jsphtml" name="New JSP File (html)">&lt;%@ page language="java" contentType="text/html; charset=${encoding}"
+    pageEncoding="${encoding}"%&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=${encoding}"&gt;
+&lt;title&gt;Insert title here&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+${cursor}
+&lt;/body&gt;
+&lt;/html&gt;</template><template autoinsert="true" context="jsp_new" deleted="false" description="JSP with xhtml markup" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jspxhtml" name="New JSP File (xhtml)">&lt;?xml version="1.0" encoding="${encoding}" ?&gt;
+&lt;%@ page language="java" contentType="text/html; charset=${encoding}"
+    pageEncoding="${encoding}"%&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=${encoding}" /&gt;
+&lt;title&gt;Insert title here&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+${cursor}
+&lt;/body&gt;
+&lt;/html&gt;</template><template autoinsert="true" context="jsp_new" deleted="false" description="JSP with xhtml markup and xml style syntax" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jspxhtmlxml" name="New JSP File (xhtml, xml syntax)">&lt;?xml version="1.0" encoding="${encoding}" ?&gt;
+&lt;jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"&gt;
+    &lt;jsp:directive.page language="java"
+        contentType="text/html; charset=${encoding}" pageEncoding="${encoding}" /&gt;
+    &lt;jsp:text&gt;
+        &lt;![CDATA[ &lt;?xml version="1.0" encoding="${encoding}" ?&gt; ]]&gt;
+    &lt;/jsp:text&gt;
+    &lt;jsp:text&gt;
+        &lt;![CDATA[ &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt; ]]&gt;
+    &lt;/jsp:text&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=${encoding}" /&gt;
+&lt;title&gt;Insert title here&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+${cursor}
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;/jsp:root&gt;</template><template autoinsert="true" context="jsp_tag" deleted="false" description="Tag attribute directive" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jspattributedirective" name="Tag attribute directive">&lt;%@ attribute name="${cursor}" description="" required="" type="" %&gt;</template><template autoinsert="true" context="jsp_tag" deleted="false" description="Tag file tag directive" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jsptagdirective" name="Tag file tag directive">&lt;%@ tag display-name="${cursor}" description="" small-icon="" %&gt;</template><template autoinsert="true" context="jsp_tag" deleted="false" description="Tag variable directive" enabled="true" id="org.eclipse.jst.jsp.ui.templates.jspvariabledirective" name="Tag variable directive">&lt;%@ variable variable-class="${cursor}" description="" %&gt;</template></templates>

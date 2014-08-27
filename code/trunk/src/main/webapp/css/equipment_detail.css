@@ -1,0 +1,100 @@
+/*中间样式*/
+.content{
+}
+/*左边列表部分*/
+.content_list{
+	width: 20%;
+	float: left;
+	border: solid #cacaca 1px;
+	border-radius:5px;
+	min-height: 400px;
+	margin-left: 5px;
+}
+.content_list_title{
+	background-image: url("../images/main_title.png");
+	height: 30px; 
+	line-height: 30px;
+	width: 100%;
+	font-family: 宋体, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#000;
+	font-size: 14px;
+	text-align: left;
+	border-bottom: solid #cacaca 1px;
+}
+.content_list_title span{
+	padding-left: 10px;	
+}
+.content_list_list{
+}
+.content_list_list_table td{
+	font-size: 12px;
+	padding:10px 5px 0px;
+	min-width: 80px;
+	
+}
+.content_body{
+	width: 78%;
+	float: right;
+	border: solid #cacaca 1px;
+	border-radius:5px;
+	min-height: 400px;
+	margin-right: 5px;
+}
+.content_body_title{
+	background-image: url("../images/m_03.gif");
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	text-align: left;
+	font-family: 宋体, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#000;
+	font-size: 14px;
+}
+.content_body_title img{
+	padding-left: 10px;
+}
+
+.content_body_list{
+	width: 98%;
+	margin: 10px auto;
+}
+/*仪器信息的表格*/
+.content_body_list_table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.content_body_list_table tr td{
+	font-size: 12px;
+	color: #333;
+	border: solid #B0C4DE 1px;
+	height: 25px;
+	line-height: 25px;
+}
+.content_body_list_table_bt1{
+	height: 25px;
+	width: 15%;
+	text-align: center;
+	background-color: #f0f8ff;
+}
+.content_body_list_table_bt2{
+	width: 35%;
+}
+
+.content_body_list_table_caozuo{
+	float: right;
+	margin-right: 20px;
+}
+.lang_content{
+	width: 100%;
+	min-height: 60px;
+}
+.bq_{
+	min-height: 20px;
+	line-height: 20px;
+	width: 100%;
+	border: solid 1px #cacaca;
+	float: left;
+	margin-top: 10px;
+}

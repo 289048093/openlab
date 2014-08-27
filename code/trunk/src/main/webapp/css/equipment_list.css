@@ -1,0 +1,136 @@
+/*中间样式*/
+.content{
+}
+/*左边列表部分*/
+.content_list{
+	width: 20%;
+	float: left;
+	border: solid #cacaca 1px;
+	border-radius:5px;
+	min-height: 400px;
+	margin-left: 5px;
+}
+.content_list_title{
+	background-image: url("../images/main_title.png");
+	height: 30px; 
+	line-height: 30px;
+	width: 100%;
+	font-family: 宋体, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#000;
+	font-size: 14px;
+	text-align: left;
+	border-bottom: solid #cacaca 1px;
+}
+.content_list_title span{
+	padding-left: 10px;	
+}
+.content_list_list{
+}
+.content_list_list_table td{
+	font-size: 12px;
+	padding:10px 5px 0px;
+	min-width: 80px;
+	
+}
+.content_body{
+	width: 78%;
+	float: right;
+	border: solid #cacaca 1px;
+	border-radius:5px;
+	min-height: 400px;
+	margin-right: 5px;
+}
+.content_body_title{
+	background-image: url("../images/m_03.gif");
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	text-align: left;
+	font-family: 宋体, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#000;
+	font-size: 14px;
+	border-bottom: solid #cacaca 1px;
+}
+.content_body_title img{
+	padding-left: 10px;
+}
+
+.content_body_sousuo{
+	border: solid ##D9E6F3 1px;
+	width: 98%;
+	height: 40px;
+	line-height:40px;
+	background-image: url("../images/ssbg_02.gif");
+	margin: 10 auto;
+}
+.content_body_sousuo_bg1{
+	float: left;
+}
+.content_body_sousuo_bg2{
+	float: right;	
+}
+.yq_sousuo{
+	background-image: url("../images/icons_ss.gif");
+	width: 100px;
+	height: 24px;
+	border: none;
+}
+.super_yq_sousuo{
+	background-image: url("../images/icons_gaoji.gif");
+	width: 100px;
+	height: 24px;
+	border: none;
+}
+
+.content_body_list{
+	width: 98%;
+	margin: 0 auto;
+}
+/*仪器信息的表格*/
+.content_body_list_table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.content_body_list_table tr td{
+	border: solid #B0C4DE 1px;
+	text-align: center;
+	font-size: 12px;
+}
+.content_body_list_table_toptr{
+	background-image: url("../images/m_03.gif");
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.content_body_list_table_toptd1{
+	width: 10%;
+}
+.content_body_list_table_toptd2{
+	width: 30%;
+}
+.content_body_list_table_toptd3{
+	width: 20%;
+}
+.content_body_list_table_toptd4{
+	width: 20%;
+}
+.content_body_list_table_toptd5{
+	width: 15%;
+}
+.yq_shenqing{
+	background-image: url("../images/apply.gif");
+	width: 60px;
+	height: 21px;
+	border: none;
+}
+
+.bq_{
+	min-height: 20px;
+	line-height: 20px;
+	width: 100%;
+	border: solid 1px #cacaca;
+	float: left;
+	margin-top: 10px;
+}

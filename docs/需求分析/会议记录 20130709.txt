@@ -1,0 +1,27 @@
+1. 门户 - 只有使用者模式，加入‘管理平台’链接。
+2. 管理平台分成门口管理平台和‘仪器设备、检测与技术转移’管理平台。
+3. 用户分2类，普通使用者和管理员模式。
+4. 测试和使用流程需要用户给出正式文档确认.
+5. 周四会议提供人员：会务 ，记录。
+6. 周四图示JIRA使用，for user.
+7. 手机版本：规划模块。
+8. 专家：可能有校外。
+9. 科技文献：建议链接至‘文献港’提取和展示。(lib.utsz.edu.cn)
+10.公共技术服务平台-需要用户提供更细化描述。(将已有云服务平台添加进去)
+11.技术转移-新特色:关键用户如领导能通过此模块看到技术转移项目的状态更新.
+12.找一些国外LMS的snapshot;
+
+ http://210.39.14.226/sztr/pages/Index/index.html
+ http://www.sgst.cn/
+ http://www.sdtjpt.gov.cn/publicfiles//business/htmlfiles/tjpt/index.html
+广州仪器协作网 http://www.gzsin.cn/gzsin.web/Client/index.m
+
+
+ www.siat.cas.cn
+
+中科院系统：
+
+用户名：tsz-qinhua，密码：123456.
+
+用户名：utsz-qinhua，密码：123456
+网站： http://caslims.cas.cn/apparatus_seam/login.seam

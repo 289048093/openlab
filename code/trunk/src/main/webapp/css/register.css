@@ -1,0 +1,51 @@
+/*中间样式*/
+.content{
+}
+
+.register_content{
+	width: 98%;
+	border: solid #cacaca 1px;
+	border-radius:5px;
+	min-height: 400px;
+	margin-left: 5px;
+}
+.register_content_title{
+	background-image: url("../images/m_03.gif");
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	text-align: left;
+	font-family: 宋体, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#000;
+	font-size: 14px;
+	border-bottom: solid #cacaca 1px;
+}
+.register_content_body{
+	width: 45%;
+	margin: 5px auto;
+}
+.register_content_body_tb td{
+	border: solid 1px #B5D6E6;
+}
+.register_content_body_tb_name{
+	width:160px;
+	height:25px;
+	text-align: right;
+	background-color: #f1fafa;
+}
+.register_content_body_tb_value{
+	width: 624px;
+	text-align: left;
+}
+.b_tn{
+	background: url(../images/btnbg.gif);
+	height: 28px;
+	line-height: 28px;
+	width: 95px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	border: 0;
+	cursor: pointer;
+}

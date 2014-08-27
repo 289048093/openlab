@@ -1,0 +1,74 @@
+.pro {
+	clear: both;
+	height: auto;
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: repeat-x;
+	overflow: hidden;
+	_height: auto; 
+	overflow: visible;
+	/* background-image: url(../images/bg_pro.jpg); */
+	
+}
+.pro_left{
+float:left;
+clear:both;
+border: 1px solid #dcdcdc;
+width: 180px;
+background: #F8F8F8;
+height: 220px;
+margin-top:30px;
+}
+.pro ul{list-style: none;}
+.pro li{ font-size:18px;
+background:#F8F8F8;
+font-family: Arial, Helvetica, STHeiti,"ËÎÌו";
+height:35px;
+border-bottom: 1px dotted #dcdcdc;
+}
+.pro_span{
+	margin-left:45px;
+	font-weight:bold;
+	line-height:35px;
+	}
+.pro li a{
+cursor:hand;
+line-height: 45px;
+margin-left:40px;
+
+padding-left: 15px;
+color: #333;
+font-size: 14px;}
+.pro li a:hover{text-decoration:none;
+font-weight:bold;
+margin-left:38px;
+}
+.introduce{
+width:815px;
+float:right;
+height:35px;
+margin-top:30px;
+border:#CCCCCC solid 1px;
+}
+.set{
+width:815px;
+height:35px;
+float:right;
+background-color:#2F9EF3;
+}
+.getall{ margin-top:10px; margin-left:20px;}
+.operate{float:right; margin-right:20px; clear:both;}
+.addoperate{
+width:40px;
+height:25px;
+margin-top:5px;
+}
+.count_table{
+width:815px;
+float:right;
+height: auto;
+}
+.count_table td{
+text-align:center;
+}

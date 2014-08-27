@@ -1,0 +1,14 @@
+已按要求设置好以下服务器，请接管：
+1.平台数据库服务器：IP:10.6.255.69 
+ssh账号:root 密码：openlab123@
+mysql5.5账号：root 密码：cloud
+2.平台门户服务器：IP:10.6.255.68
+ssh账号：root 密码：openlab123@
+java,tomcat安装目录/opt/
+3.平台仪器设备共享与科研成果管理服务器：IP:10.6.255.68
+ssh账号：root 密码：openlab123@
+java,tomcat安装目录/opt/
+
+3.平台仪器设备共享与科研成果管理服务器：IP:10.6.255.90
+ssh账号：root 密码：openlab123@
+java,tomcat安装目录/opt/

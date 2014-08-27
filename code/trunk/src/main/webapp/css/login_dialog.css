@@ -1,0 +1,86 @@
+.ck_dialog_login_body {
+	background: url('../images/login_bg.png') no-repeat;
+	width: 316px;
+	height: 226px;
+	position: fixed;
+	_position: absolute; 
+	left : 50%;
+	top: 50%;
+	_top: expression(eval(document.body.scrollTop+document.body.clientHeight/2));
+	z-index: 10000;
+	left: 50%;
+}
+
+.dialog_error_msg {
+	text-align: center;
+	height: 15px;
+	line-height: 15px;
+	color: red;
+	font-size: 14px;
+}
+
+.dialog_title {
+	position: relative;
+	top: 30px;
+	color: #060631;;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px #576FCF;
+	filter: progid : DXImageTransform . Microsoft .
+		MotionBlur(strength = 10, direction = 145); *
+	zoom: 1;
+}
+
+.dialog_form_text {
+	border: 0px;
+	background: url('../images/login_text.png') no-repeat;
+	width: 160px;
+}
+
+.dialog_login_button {
+	background: url('../images/login_button.png') no-repeat;
+	width: 100px;
+	height: 22px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.dialog_login_table {
+	margin-top: 40px;
+	color: white;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+.dialog_close_button {
+	background: url('../images/cancel_button.png') no-repeat;
+	width: 100px;
+	height: 22px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.errorMsg {
+	color: red;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
+.dialog_mask {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	_position: absolute;
+	z-index: 9999;
+	color: red;
+	top: 0px;
+	_top: expression(eval(document.body.scrollTop));
+	left: 0px;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}

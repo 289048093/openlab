@@ -1,0 +1,33 @@
+<decorators defaultdir="/decorators">
+	<decorator name="common" page="common.jsp">
+		<pattern>/public/*.jsp</pattern>
+		<pattern>/commonTechPlatform/*.jsp</pattern>
+		<pattern>/DownloadCenter/*.jsp</pattern>
+		<pattern>/downloadFile/*.jsp</pattern>
+		<pattern>/Equipment/*.jsp</pattern>
+		<pattern>/expert/*.jsp</pattern>
+		<pattern>/IndustryDetection/*.jsp</pattern>
+		<pattern>/industryTest/*.jsp</pattern>
+		<pattern>/literature/*.jsp</pattern>
+		<pattern>/news/*.jsp</pattern>
+		<pattern>/pointLab/*.jsp</pattern>
+		<pattern>/policy/*.jsp</pattern>
+		<pattern>/register/*.jsp</pattern>
+		<pattern>/researchBBS/*.jsp</pattern>
+		<pattern>/resource/*.jsp</pattern>
+		<pattern>/syscfg/*.jsp</pattern>
+		<pattern>/user/*.jsp</pattern>
+		<pattern>/techTransferAndResearchAchieve/*.jsp</pattern>
+		<pattern>/index.jsp</pattern>
+		<pattern>/test.jsp</pattern>
+	</decorator>
+	<decorator name="extjs" page="extjsDecorator.jsp">
+		<pattern>/userCenter/*.jsp</pattern>
+	</decorator>
+	<excludes>
+		<pattern>/*_.jsp*</pattern>
+		<pattern>/login.jsp*</pattern>
+		<pattern>/jump.jsp*</pattern>
+		<pattern>/error/*.jsp*</pattern>
+	</excludes>
+</decorators>

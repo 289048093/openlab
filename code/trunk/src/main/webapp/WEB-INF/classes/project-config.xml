@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 文件名建议 改成项目真实名字 -->
+<openlab>
+	<!-- 多个半角逗号分割 ，支持*通配符-->
+	<excludeAuthUrls>
+		/userManager/user!register.action,/userManager/user!login.action
+	</excludeAuthUrls>
+	<openlabHome>/opt/openlab_Home</openlabHome>
+	<userDataDir>userData</userDataDir>
+	<coreManagerHost>http://219.223.254.209/openlabCoreManager</coreManagerHost>
+	<webserviceIP>192.168.23.2</webserviceIP>
+	<webservicePort>8889</webservicePort>
+	<!-- 本机IP ,解决邮件发送失败： javax.mail.MessagingException: 501 Syntax: HELO hostname -->
+	<Host>219.223.254.215</Host>
+	<TwoDimensionCodeURL></TwoDimensionCodeURL>
+</openlab>

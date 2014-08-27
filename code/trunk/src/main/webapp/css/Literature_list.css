@@ -1,0 +1,151 @@
+/*中间样式*/
+.content{
+}
+/*主体部分样式*/
+.content_body{
+	width: 98%;
+	border: solid #cacaca 1px;
+	border-radius:5px;
+	margin: 5px auto;
+}
+.content_body_title{
+	background-image: url("../images/m_03.gif");
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	text-align: left;
+	font-family: 宋体, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#000;
+	font-size: 14px;
+	border-bottom: solid #cacaca 1px;
+}
+.content_body_title img{
+	padding-left: 10px;
+}
+
+
+
+/*搜索框*/
+.content_body_sousuo{
+	width: 98%;
+	margin: 10 auto;
+	text-align: center;
+}
+.content_body_sousuo_bg1{
+	float: left;
+}
+.content_body_sousuo_bg2{
+	float: right;	
+}
+
+.search_center{
+	float: left;
+}
+.clear_fix{
+	list-style-type: none;
+	margin-left: -45px;
+}
+.clear_fix li{
+	float: left;
+	margin: 0 5px;
+	height: 23px;
+	line-height: 23px;
+	width: 50px;
+}
+.clear_fix_sli{
+	border-radius:3px 3px 0px 0px;
+	background: #4595EC;
+}
+.con_clearfix{
+
+}
+.txt_input{
+	width: 565px;
+	height: 35px;
+	line-height: 35px;
+	border: 2px solid #4595EC;
+	float: left;
+}
+.btn_ss{
+	height: 35px;
+	line-height：30px;
+	background: #4595EC;
+	width: 170px;
+	float: left;
+}
+.btn_search{
+	width: 82px;
+	text-align: center;
+	border: none;
+	background: none;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+	vertical-align: middle;
+}
+.chioce{
+	float: left;
+}
+/*主要内容显示*/
+.content_body_list{
+	width: 98%;
+	margin: 0 auto;
+	border: solid #D9E6F3 1px;
+	min-height: 400px;
+	margin-bottom: 5px;
+	border-radius:5px;
+}
+.wx_list_title{
+	background: #f9f9f9;
+	border: solid #e3e3e3 1px;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+}
+.wx_list_title span{
+	padding-left: 20px;
+}
+
+.ts_list_ul{
+	list-style-type: none;
+}
+.ts_list_ul li{
+	width: 95%;
+	border-bottom: 1px dotted #ccc;
+	position: relative;
+	overflow: hidden;
+	text-align:left;
+	zoom: 1;
+}
+.ts_datil{
+	padding-left: 90px;
+}
+.ts_datil dd{
+	height: 20px;
+	line-height: 20px;
+}
+.ts_img{
+	float: left;
+}
+
+.page {
+	padding: 40px 0px;
+}
+.page a, .page em {
+margin-right: 5px;
+padding: 4px 8px;
+border: 1px solid #f0f0f0;
+}
+.page em, .page a.cur {
+background: #7a7a7a;
+color: #fff;
+}
+.bq_{
+	min-height: 20px;
+	line-height: 20px;
+	width: 100%;
+	border: solid 1px #cacaca;
+	float: left;
+	margin-top: 10px;
+}
